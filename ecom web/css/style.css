@@ -1,0 +1,359 @@
+*{
+     font-family: "Inter", sans-serif;
+}
+
+body{
+background-color: #F7FAFC;
+}
+
+.bckcolor{
+    background-color: #FFFFFF;
+}
+
+.bodycol{
+  background-color: #DEE2E7;
+}
+
+.newsltrcol{
+  background-color: #EFF2F4;
+}
+.font{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bordr{
+    border: 2px solid #0D6EFD;
+}
+
+.menu{
+    /* width: 620px;  */
+    height: 24px;
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+ ul {
+    padding-left: 0;
+}
+
+.flag{
+    
+    height: 24px;
+    color: #1C1C1C;
+    font-weight: 500;
+
+}
+
+.banner {
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.list{
+  height: 90%;
+}
+
+.list ul a {
+  text-decoration: none;
+}
+
+.list ul li {
+  list-style: none;
+}
+
+.list-group-item:hover {
+    background-color: #E5F1FF !important;
+    transition: background-color 0.2s ease; /* Smooth transition (optional) */
+    border-radius: 10px;
+} 
+.color {
+  background-color: #E5F1FF;
+}
+
+/* Banner Image Container */
+.banner-image-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.banner-image-container img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+/* Overlay Heading */
+.overlay-heading {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* Overlay Button */
+.overlay-button {
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.banbox{
+  height: 90%;
+  width: 100%;
+  
+}
+
+/* Box Styles */
+.box1 {
+  background-color: #E3F0FF;
+}
+
+.box2 {
+  background-color: #F38332;
+  font-size: 16px;
+}
+
+.box3 {
+  background-color: #55BDC3;
+  font-size: 16px;
+}
+
+/* Make buttons full width */
+.btn-sm.w-100 {
+  width: 100%; /* Span full width of parent container */
+  padding: 0.5rem 1rem; 
+  font-size: 0.875rem; /* Smaller font size */
+}
+
+/* Customize Join now button */
+.btn-primary {
+  background-color: #007bff; /* Blue color */
+  border-color: #007bff;
+  color: white; /* White text */
+}
+
+/* Customize Log in button */
+.btn-light {
+  background-color: #f8f9fa; /* Light gray color */
+  border-color: #f8f9fa;
+  color: black; /* Black text */
+}
+
+/* Center-align buttons */
+.box1 .bg-danger .d-flex.flex-column.px-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align buttons */
+  gap: 0.5rem; /* Add some vertical spacing between buttons */
+}
+
+.dealoffer{
+  height: 240px;
+}
+
+.discount{
+  background-color: #FFE3E3;
+  color: #EB001B;
+}
+
+.timebox{
+  background-color: #606060;
+  color: #FFFFFF;
+  line-height: normal;
+}
+.items{
+  height: 257px;
+}
+
+.frm{
+  height: 420px;
+  background-image:url("/images/Mask\ group.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products {
+  height: 696px;
+}
+
+.service{
+  height: 256px;
+}
+
+.card-img-top {
+  max-height: 140px;
+  object-fit: cover;
+}
+
+.suppliers{
+  height: 138px;
+}
+
+.supplink{
+ font-size: x-small;
+}
+
+.shirt{
+  height: 580px;
+}
+
+.tble{
+  background-color: #FFF0DF;
+}
+
+ .seller-info {
+            
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+.supplier-badge {
+            background-color: #e6f7ff;
+            color: #007bff;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+.discont{
+ background: linear-gradient(90deg, #237CFF, #005ADE);
+  color: #ffff;
+   
+}
+
+.btncol{
+  background-color: #FF9017;
+}
+
+
+.bg{
+  background-color: #00B517;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright{
+  height: 68px;
+}
+
+
+.dropup-toggle {
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  color: #606060;
+}
+
+.dropup-toggle:hover {
+  background-color: #f8f9fa;
+  color: #606060;
+}
+
+
+.dropup .dropdown-menu {
+  margin-bottom: 0.125rem; 
+  min-width: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.dropdown-menu {
+  padding: 0;
+  border-radius: 6px;
+}
+
+
+.dropdown-item {
+  padding: 0.5rem 1rem;
+  color: #333;
+  white-space: nowrap; 
+  transition: background-color 0.2s ease;
+}
+
+
+.socialicon{
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #BDC4CD;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+}
+
+.foot{
+  height: 256px;
+}
+
+
+
+.links ul li a {
+     color:#8B96A5 ;
+     text-decoration: none;
+}
+.links ul li{
+   
+    list-style: none;
+}
+
+.sml{
+    font-size: xx-small;
+}
+
+/* product */
+
+.prevbar{
+  height: 64px;
+}
+
+.prevbar ul li a{
+  color:#8B96A5;
+}
+
+.prevbar ul li {
+  color:#8B96A5;
+}
+
+.sidebar i{
+   color: #505050;
+}
+
+.sidebar ul li a{
+  color: #505050;
+}
